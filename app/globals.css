@@ -16,3 +16,5 @@
 .brand-logo img{width:64px;height:64px;object-fit:contain}
 .footer-brand img{display:block;width:112px;height:112px;object-fit:contain;border-radius:14px;filter:none;margin-bottom:18px}
 @media(max-width:560px){.brand-logo img{width:58px!important;height:58px}}
+
+.legal .container{max-width:860px}.legal>div>p,.legal li{line-height:1.8}.legal h2{margin-bottom:12px}.legal ul{padding-left:24px;margin:0 0 24px}.legal li{margin:7px 0}.legal a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}.legal address{font-style:normal;line-height:1.8;background:var(--light);border:1px solid var(--border);border-radius:14px;padding:20px;margin-top:12px}.legal-updated{color:var(--muted);font-size:.9rem;margin-bottom:30px}
