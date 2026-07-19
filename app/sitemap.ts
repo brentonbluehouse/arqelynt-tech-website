@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";export default function sitemap():MetadataRoute.Sitemap{return["","/privacy","/terms"].map(path=>({url:`https://arqelynttech.com${path}`,lastModified:new Date(),changeFrequency:path?"yearly":"monthly",priority:path?.length?.8:1}))}

@@ -1,0 +1,2 @@
+import {HeroSection} from "@/components/sections/HeroSection";import {AboutSection,CapabilitiesSection,CtaSection,ProcessSection,ServicesSection,TechnologySection,WhySection} from "@/components/sections/HomeSections";import {ContactSection} from "@/components/sections/ContactSection";
+export default function Home(){return <><HeroSection/><ServicesSection/><WhySection/><ProcessSection/><CapabilitiesSection/><AboutSection/><TechnologySection/><CtaSection/><ContactSection/></>}

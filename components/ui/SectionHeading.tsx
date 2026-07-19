@@ -1,0 +1,1 @@
+export function SectionHeading({label,title,copy,center=false}:{label:string;title:string;copy:string;center?:boolean}){return <div className={`section-heading ${center?"center":""}`}><span className="eyebrow">{label}</span><h2>{title}</h2><p>{copy}</p></div>}
